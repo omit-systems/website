@@ -1048,6 +1048,9 @@ main .main-wrapper.demo-06 {
   height: auto;
 }
 
+.hero-area {
+  height: 100vh;
+}
 main .main-wrapper.demo-06 .hero-area {
   margin-bottom: 100px;
 }
