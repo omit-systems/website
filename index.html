@@ -20,6 +20,24 @@
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      .lightning-ul ul {
+        list-style: none;
+        font-size: 1.7rem;
+        font-family: inherit;
+      }
+      .lightning-ul li::before {
+        content: "⚡"; /* Lightning bolt */
+        position: absolute;
+        left: 0;
+      }
+      .lightning-ul li {
+        position: relative;
+        padding-left: 2rem;
+        margin-bottom: 0.5rem;
+        font-family: inherit;
+      }
+    </style>
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -62,37 +80,26 @@
                 <!-- heading start  -->
                 <div class="heading">
                   <h1 class="text-white wow fadeInUp" data-wow-delay=".2s">
-                    Video editing + AI = ⚡ <br />
+                    Your AI Assistant Editor <br />
                   </h1>
                 </div>
                 <!-- heading end  -->
-                <p
-                  class="wow fadeInLeft text-white"
-                  data-wow-delay=".4s"
-                  style="font-size: 1.5rem"
-                >
-                  Omit is a Desktop app designed to add lighting speed to your
-                  production workflow. Our AI tools run right on your laptop and
-                  allow you to:
+                <p class="wow fadeInLeft text-white" data-wow-delay=".4s">
+                  Omit is a desktop app designed to speed up your
+                  post-production workflow. Our powerful AI tools run in-app
+                  meaning your videos never have to leave your laptop as it:
                 </p>
                 <br />
                 <ul
-                  class="wow fadeInLeft text-white"
+                  class="wow fadeInLeft text-white lightning-ul"
                   data-wow-delay=".4s"
-                  style="
-                    font-size: 1.5rem;
-                    list-style-type: disc;
-                    padding-left: 2rem;
-                  "
                 >
-                  <li>Seamlessly group clips and audio.</li>
+                  <li>Seamlessly groups clips and audio.</li>
                   <li>
-                    Sync 100s hours of video to audio even when metadata is
+                    Syncs 100s hours of video to audio even when metadata is
                     messy and timecode fails.
                   </li>
-                  <li>
-                    Query over 1000s of clips to find the right shot/moment
-                  </li>
+                  <li>Queries 1000s of clips to find the right shot/moment</li>
                 </ul>
               </div>
               <div class="col-xl-7 col-lg-7">
@@ -124,7 +131,7 @@
                   <h2 class="wow fadeInUp" data-wow-delay=".4s">
                     Meet the team behind
                     <br class="d-none d-lg-block" />
-                    the world's best video editing copilot.
+                    your new AI teammate
                   </h2>
                 </div>
                 <!-- section-title end  -->
@@ -164,7 +171,7 @@
                 <div class="team-info">
                   <h4>Lachlan McClellan</h4>
                   <p>COO</p>
-                  <p>Director</p>
+                  <p>Director @ AMP ⚡</p>
                 </div>
               </div>
               <!-- team-item end  -->
